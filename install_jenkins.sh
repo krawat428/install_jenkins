@@ -6,9 +6,9 @@ echo "deb https://pkg.jenkins.io/debian-stable binary/"  >> /etc/apt/sources.lis
 
 sudo apt update
 
-sudo apt install default-jdk -y
+sudo apt-get install default-jre -y
 
-sudo apt install jenkins -y
+sudo apt-get install jenkins -y
 
 echo -e "\nJENKINS DEFAULT PASSWORD \n###################################################\n\n"
 
